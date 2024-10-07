@@ -85,7 +85,7 @@ model.rho = 1.0;
 model.cp = 1.0;
 #model.maxit = 10; #PARA EL PUNTO 1  QUE PIDE LA T EN t=0.025, lo cual son 10 iteraciones de dt = 1/400
 model.maxit = 4; #punto 2 para dt=1/400
-model.tol = 1.000000e-05;
+model.tol = 1.000000e-03;
 model.dt = 1/400;
 % Condición inicial
 model.PHI_n = sin(xnode(:,1) .* pi) .* sin(xnode(:,2) .* (2*pi));
