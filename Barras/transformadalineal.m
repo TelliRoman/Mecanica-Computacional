@@ -1,0 +1,9 @@
+function [M]=transformadalineal(theta)
+m=@(x) [(cosd(x))^2  sind(x)*cosd(x)  -(cosd(x))^2  -sind(x)*cosd(x);...
+   sind(x)*cosd(x)  (sind(x))^2  -sind(x)*cosd(x)  -(sind(x))^2;...
+    -(cosd(x))^2   -sind(x)*cosd(x)  (cosd(x))^2  sind(x)*cosd(x);...
+   -sind(x)*cosd(x)  -(sind(x))^2  sind(x)*cosd(x)  (sind(x))^2];
+
+M=zeros(4,4);
+M=m(theta);
+

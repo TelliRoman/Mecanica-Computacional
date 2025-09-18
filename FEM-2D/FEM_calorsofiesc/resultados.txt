@@ -1,0 +1,253 @@
+---------------------------------------------------------------
+Inicializando modelo de datos...
+Iniciando el metodo numerico...
+Elemento 1 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5773  -0.2887
+  -0.2887  -0.2887   0.5774
+
+Elemento 2 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5774  -0.2887
+  -0.2887  -0.2887   0.5773
+
+Elemento 3 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5773  -0.2887
+  -0.2887  -0.2887   0.5774
+
+Elemento 4 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5773  -0.2887
+  -0.2887  -0.2887   0.5774
+
+K ensamblada de gen_system:
+ans =
+
+   0.5773  -0.2887        0  -0.2887        0        0
+  -0.2887   1.7321  -0.2887  -0.5774  -0.5774        0
+        0  -0.2887   0.5773        0  -0.2887        0
+  -0.2887  -0.5774        0   1.7321  -0.5773  -0.2887
+        0  -0.5774  -0.2887  -0.5773   1.7321  -0.2887
+        0        0        0  -0.2887  -0.2887   0.5774
+
+F ensamblada de gen_system:
+ans =
+
+   0.3608
+   1.0825
+   0.3608
+   1.0825
+   1.0825
+   0.3608
+
+F de NEUMANN
+Faux =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 3 [50%])
+
+  (1, 1) -> 24.999
+  (4, 1) -> 49.999
+  (6, 1) -> 24.999
+
+F despues de NEUMANN
+F =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 6 [100%])
+
+  (1, 1) -> -24.639
+  (2, 1) -> 1.0825
+  (3, 1) -> 0.3608
+  (4, 1) -> -48.916
+  (5, 1) -> 1.0825
+  (6, 1) -> -24.639
+
+K de ROBIN
+ans =
+
+        0        0        0        0        0        0
+        0        0        0        0        0        0
+        0        0   1.6666        0   0.8333        0
+        0        0        0        0        0        0
+        0        0   0.8333        0   3.3333   0.8333
+        0        0        0        0   0.8333   1.6666
+
+K despues de ROBIN
+ans =
+
+   0.5773  -0.2887        0  -0.2887        0        0
+  -0.2887   1.7321  -0.2887  -0.5774  -0.5774        0
+        0  -0.2887   2.2440        0   0.5446        0
+  -0.2887  -0.5774        0   1.7321  -0.5773  -0.2887
+        0  -0.5774   0.5446  -0.5773   5.0653   0.5446
+        0        0        0  -0.2887   0.5446   2.2440
+
+F de ROBIN
+Faux =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 3 [50%])
+
+  (3, 1) -> 125.00
+  (5, 1) -> 249.99
+  (6, 1) -> 125.00
+
+F despues de ROBIN
+F =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 6 [100%])
+
+  (1, 1) -> -24.639
+  (2, 1) -> 1.0825
+  (3, 1) -> 125.36
+  (4, 1) -> -48.916
+  (5, 1) -> 251.08
+  (6, 1) -> 100.36
+
+Resolución del sistema de ecuaciones...
+Finalizada la ejecucion del metodo numerico.
+---------------------------------------------------------------
+Iniciando el post-procesamiento...
+error: __go_patch__: invalid value for array property "cdata", unable to create graphics handle
+error: called from
+    __patch__ at line 182 column 5
+    patch at line 89 column 8
+    fem2d_heat_graph_mesh at line 72 column 17
+    main_Personalizado_3 at line 79 column 1
+    prueba at line 2 column 1
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> main_Personalizado_3
+---------------------------------------------------------------
+Inicializando modelo de datos...
+Iniciando el metodo numerico...
+Elemento 1 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5773  -0.2887
+  -0.2887  -0.2887   0.5774
+
+Elemento 2 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5774  -0.2887
+  -0.2887  -0.2887   0.5773
+
+Elemento 3 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5773  -0.2887
+  -0.2887  -0.2887   0.5774
+
+Elemento 4 :
+Local K
+ans =
+
+   0.5773  -0.2887  -0.2887
+  -0.2887   0.5773  -0.2887
+  -0.2887  -0.2887   0.5774
+
+F ensamblada de gen_system:
+ans =
+
+   0.3608
+   1.0825
+   0.3608
+   1.0825
+   1.0825
+   0.3608
+
+F de NEUMANN
+Faux =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 3 [50%])
+
+  (1, 1) -> 24.999
+  (4, 1) -> 49.999
+  (6, 1) -> 24.999
+
+F despues de NEUMANN
+F =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 6 [100%])
+
+  (1, 1) -> -24.639
+  (2, 1) -> 1.0825
+  (3, 1) -> 0.3608
+  (4, 1) -> -48.916
+  (5, 1) -> 1.0825
+  (6, 1) -> -24.639
+
+K de ROBIN
+ans =
+
+        0        0        0        0        0        0
+        0        0        0        0        0        0
+        0        0   1.6666        0   0.8333        0
+        0        0        0        0        0        0
+        0        0   0.8333        0   3.3333   0.8333
+        0        0        0        0   0.8333   1.6666
+
+K despues de ROBIN
+ans =
+
+   0.5773  -0.2887        0  -0.2887        0        0
+  -0.2887   1.7321  -0.2887  -0.5774  -0.5774        0
+        0  -0.2887   2.2440        0   0.5446        0
+  -0.2887  -0.5774        0   1.7321  -0.5773  -0.2887
+        0  -0.5774   0.5446  -0.5773   5.0653   0.5446
+        0        0        0  -0.2887   0.5446   2.2440
+
+F de ROBIN
+Faux =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 3 [50%])
+
+  (3, 1) -> 125.00
+  (5, 1) -> 249.99
+  (6, 1) -> 125.00
+
+F despues de ROBIN
+F =
+
+Compressed Column Sparse (rows = 6, cols = 1, nnz = 6 [100%])
+
+  (1, 1) -> -24.639
+  (2, 1) -> 1.0825
+  (3, 1) -> 125.36
+  (4, 1) -> -48.916
+  (5, 1) -> 251.08
+  (6, 1) -> 100.36
+
+Resolución del sistema de ecuaciones...
+Finalizada la ejecucion del metodo numerico.
+---------------------------------------------------------------
+Iniciando el post-procesamiento...
+error: __go_patch__: invalid value for array property "cdata", unable to create graphics handle
+error: called from
+    __patch__ at line 182 column 5
+    patch at line 89 column 8
+    fem2d_heat_graph_mesh at line 72 column 17
+    main_Personalizado_3 at line 79 column 1
+>> 
